@@ -1,6 +1,7 @@
 import { offersData, generateId } from "./dummyData";
 const delay = 400; // delay for dummyData
 
+let offers = offersData;
 export default {
   /**
  * Fetches all the developers 
@@ -8,7 +9,7 @@ export default {
   fetchAllOffers() {
     return new Promise(resolve => {
       setTimeout(function() {
-        resolve(offersData);
+        resolve(offers);
       }, delay);
     });
   },
@@ -17,7 +18,7 @@ export default {
   fetchOffer(id) {
     return new Promise((resolve, reject) => {
       setTimeout(function() {
-        const offerToFetch = offersData.find(o => o._id === id);
+        const offerToFetch = offers.find(o => o._id === id);
         !~offerToFetch ? resolve(offerToFetch) : reject("Offer Not Found");
       }, delay);
     });
@@ -31,15 +32,15 @@ export default {
       setTimeout(function() {
         // check if already present , then just update
         if (offer._id) {
-          const existingOfferIdx = offersData.findIndex(o => o._id === offer._id);
+          const existingOfferIdx = offers.findIndex(o => o._id === offer._id);
           if (~existingOfferIdx) reject("No Offer with that _id");
-          offersData.splice(existingOfferIdx, 1, offer);
+          offers.splice(existingOfferIdx, 1, offer);
         } else {
           // if new generate an _id property
           generateId(offer);
-          offersData.push(offer);
+          offers.push(offer);
         }
-        resolve(offersData);
+        resolve(offers);
       }, delay);
     });
   },
@@ -48,8 +49,8 @@ export default {
   deleteOffer(id) {
     return new Promise(resolve => {
       setTimeout(function() {
-        offersData = offersData.filter(o => o._id !== id);
-        resolve(offersData);
+        offers = offers.filter(o => o._id !== id);
+        resolve(offers);
       }, delay);
     });
   }

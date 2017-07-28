@@ -10,7 +10,7 @@ export function generateId(entry) {
     charset: "hex"
   });
 }
-export let offersData = JSON.parse([
+export let offersData = [
   {
     city: "Fostoria",
     Description:
@@ -89,9 +89,9 @@ export let offersData = JSON.parse([
     _id: "597007859ce8ad90a2eb4fd5",
     email: "paulmorgan@cemention.com"
   }
-]);
+];
 
-export let devsData = JSON.parse([
+export let devsData = [
   {
     picture: "http://placehold.it/32x32",
     education: [
@@ -303,4 +303,4 @@ export let devsData = JSON.parse([
     _id: "596ffd93aadbf052d9eae575",
     email: "paulmorgan@lumbrex.com"
   }
-]);
+];

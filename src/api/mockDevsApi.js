@@ -1,6 +1,8 @@
 import { devsData, generateId } from "./dummyData";
 const delay = 400; // delay for dummyData
 
+let devs = devsData;
+
 export default {
   /**
  * Fetches all the developers 
@@ -8,7 +10,7 @@ export default {
   fetchAllDevs(delay) {
     return new Promise(resolve => {
       setTimeout(function() {
-        resolve(devsData);
+        resolve(devs);
       }, delay);
     });
   },
@@ -17,7 +19,7 @@ export default {
   fetchDev(id) {
     return new Promise((resolve, reject) => {
       setTimeout(function() {
-        const devToFetch = devsData.find(o => o._id === id);
+        const devToFetch = devs.find(o => o._id === id);
         !~devToFetch ? resolve(devToFetch) : reject("dev Not Found");
       }, delay);
     });
@@ -30,15 +32,15 @@ export default {
       setTimeout(function() {
         // check if already present , then just update
         if (dev._id) {
-          const existingdevIdx = devsData.findIndex(o => o._id === dev._id);
+          const existingdevIdx = devs.findIndex(o => o._id === dev._id);
           if (~existingdevIdx) reject("No Dev with that _id");
-          devsData.splice(existingdevIdx, 1, dev);
+          devs.splice(existingdevIdx, 1, dev);
         } else {
           // if new generate an _id property
           generateId(dev);
-          devsData.push(dev);
+          devs.push(dev);
         }
-        resolve(devsData);
+        resolve(devs);
       }, delay);
     });
   },
@@ -47,8 +49,8 @@ export default {
   deleteDev(id) {
     return new Promise(resolve => {
       setTimeout(function() {
-        devsData = devsData.filter(o => o._id !== id);
-        resolve(devsData);
+        devs = devs.filter(o => o._id !== id);
+        resolve(devs);
       }, delay);
     });
   }
