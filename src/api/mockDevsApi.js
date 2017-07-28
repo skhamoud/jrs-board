@@ -7,7 +7,7 @@ export default {
   /**
  * Fetches all the developers 
  */
-  fetchAllDevs(delay) {
+  fetchAllDevs() {
     return new Promise(resolve => {
       setTimeout(function() {
         resolve(devs);
