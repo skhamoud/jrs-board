@@ -12,82 +12,112 @@ export function generateId(entry) {
 }
 export let offersData = [
   {
-    city: "Fostoria",
-    Description:
-      "Do deserunt culpa esse consequat proident. Id et ea officia adipisicing. Velit ut ipsum voluptate fugiat non laboris duis excepteur. Ipsum deserunt ut adipisicing non. Deserunt eiusmod voluptate incididunt non fugiat consequat commodo deserunt reprehenderit Lorem ex labore anim. Aliquip proident ad culpa officia laborum cillum consequat aute laborum laboris ad. Ea laborum sint dolor enim.\r\nNon pariatur nulla irure aliqua qui Lorem. Officia ut sit aliquip enim exercitation aliquip sunt excepteur minim amet. Do qui occaecat in aliquip id consequat. Anim ullamco do aliqua enim do sit qui. Dolore tempor reprehenderit ullamco amet cupidatat nisi eiusmod. Consectetur esse deserunt aliqua sit Lorem voluptate. Anim exercitation sunt veniam labore nulla magna deserunt dolor anim aute Lorem do.\r\nVoluptate elit nostrud non est eu duis qui quis. Sit ad magna mollit aute laboris amet nostrud ea ipsum sit eu do. Deserunt nulla do consectetur veniam irure et culpa cillum laborum consequat laboris consectetur. Ex do est ipsum deserunt mollit amet officia dolore ullamco. Est do deserunt do tempor aliquip nulla in occaecat. Dolor laboris sunt enim nulla. Do nostrud ex ad do eu pariatur aliqua reprehenderit ex qui elit magna elit voluptate.\r\n",
-    title: "Frontend Developer",
-    url: "https://nullaaute.io",
-    company: "GEEKOL",
-    summary:
-      "Occaecat quis sunt aute mollit ut dolore. Exercitation pariatur ut pariatur cupidatat dolor. Enim id amet fugiat officia laboris sint. Adipisicing ex reprehenderit consequat labore aliqua labore mollit ullamco amet deserunt non non dolore eiusmod. Aliquip occaecat adipisicing irure incididunt quis dolore elit elit aute nostrud qui dolore voluptate. Aliquip est ipsum labore tempor voluptate do Lorem adipisicing.\r\n",
-    logo: "http://placehold.it/32x32",
-    _id: "597007857fa10ae81aababb8",
-    email: "paulmorgan@geekol.com"
-  },
+    "city": "Grenelefe", 
+    "description": "Cupidatat tempor nulla anim eiusmod proident. Duis elit minim eiusmod do sit ea non proident cupidatat culpa mollit commodo. Incididunt ad pariatur incididunt sunt ut consequat labore irure cupidatat reprehenderit excepteur reprehenderit. Occaecat sint exercitation officia dolor commodo dolor reprehenderit fugiat Lorem. Adipisicing dolor elit velit Lorem sunt culpa enim. Consequat culpa incididunt laborum elit qui aliqua proident aute. Cillum ullamco sint excepteur in est do Lorem veniam nostrud elit ad.\r\nProident Lorem laborum ea reprehenderit ad Lorem ex excepteur culpa enim nostrud id elit voluptate. Cupidatat voluptate dolor in mollit ipsum consectetur. Eu aliquip exercitation commodo exercitation eu qui consectetur do amet excepteur in aute. Labore exercitation adipisicing consequat commodo nisi aliqua enim adipisicing consequat enim et occaecat fugiat qui. Nulla minim tempor et sunt nisi dolore ullamco minim aliqua ipsum ut.\r\nSunt exercitation commodo esse enim ipsum exercitation sint veniam dolor quis dolor veniam. Exercitation pariatur exercitation minim excepteur enim exercitation Lorem ipsum ad est sint in in nulla. Dolore culpa ullamco labore do. Labore ipsum aliquip consequat aliqua est id esse tempor officia aliquip.\r\n", 
+    "title": "Backend Developer", 
+    "url": "https://occaecatexercitation.com", 
+    "company": "CEMENTION", 
+    "summary": "Amet proident in voluptate nulla deserunt eu exercitation nulla. Nulla ad cillum tempor nisi tempor duis minim laborum irure laborum sunt cupidatat Lorem. Qui est velit in veniam fugiat irure anim esse dolor. Minim in enim cupidatat culpa anim do nulla laboris commodo ipsum pariatur ut magna commodo. Officia culpa labore incididunt est mollit reprehenderit irure velit anim.\r\n", 
+    "skills": [
+      "Node", 
+      "React", 
+      "Node", 
+      "html"
+    ], 
+    "location": "remote", 
+    "logo": "http://placehold.it/32x32", 
+    "_id": "597be3e4daef7edd950efdad", 
+    "email": "janarios@cemention.com"
+  }, 
   {
-    city: "Dargan",
-    Description:
-      "Dolor voluptate in culpa nostrud aliquip sunt esse. Cupidatat velit deserunt ullamco non eiusmod ullamco elit. Do irure ad nulla duis commodo sint. Dolor pariatur dolore nulla ut proident et tempor excepteur Lorem. Amet nostrud veniam sunt aliquip non et velit enim ipsum sit laboris. Est cupidatat minim exercitation voluptate officia. Lorem veniam ipsum exercitation laboris dolore commodo exercitation ex nulla culpa ex culpa exercitation eiusmod.\r\nSunt eu sunt laborum laboris aliqua reprehenderit pariatur ut consequat deserunt sint. Quis proident ex est ex proident esse. Cupidatat sit magna anim amet occaecat tempor.\r\nMollit excepteur ad dolor ea non eu ad incididunt ut minim tempor nulla labore et. Sunt cupidatat esse cupidatat fugiat elit nisi veniam. Cupidatat cupidatat nisi excepteur proident irure officia qui aute proident dolor laborum proident. Officia ut do nisi eiusmod. Eu ex enim cillum magna dolor ullamco ad anim aliquip.\r\n",
-    title: "Backend Developer",
-    url: "https://exdo.com",
-    company: "EURON",
-    summary:
-      "Et aliquip commodo eu sit esse. Ut ea occaecat qui velit id do proident officia eiusmod adipisicing est. Aliquip nulla cupidatat reprehenderit esse mollit aliquip pariatur sit tempor tempor irure do exercitation. Pariatur mollit aute esse pariatur dolore sit labore enim exercitation pariatur do dolor mollit do. Voluptate adipisicing consequat eu nisi veniam sint ea.\r\n",
-    logo: "http://placehold.it/32x32",
-    _id: "59700785e5d667009c79f9c1",
-    email: "paulmorgan@euron.com"
-  },
+    "city": "Tibbie", 
+    "description": "Laboris non officia adipisicing sint mollit ullamco consequat laboris cillum reprehenderit enim. Labore labore Lorem proident reprehenderit quis nisi fugiat irure eiusmod culpa et. Commodo ut ex quis nisi.\r\nAliquip voluptate anim sit tempor dolor anim proident. Tempor dolor mollit excepteur cillum ullamco voluptate voluptate est qui anim tempor elit et. Eu sint magna est in sit irure elit nostrud. Laborum ut adipisicing aliqua aute tempor cillum.\r\nReprehenderit irure ad excepteur do cupidatat consectetur laborum occaecat aute ipsum. Consectetur qui Lorem enim et consequat pariatur. Non tempor do fugiat adipisicing Lorem exercitation aliqua pariatur veniam. Laboris incididunt aute anim officia laborum enim occaecat nulla laboris.\r\n", 
+    "title": "Fullstack Developer", 
+    "url": "https://nullalaborum.com", 
+    "company": "TRASOLA", 
+    "summary": "In sunt ea do tempor magna consectetur est ea. Aliqua deserunt pariatur excepteur irure est dolor. Deserunt nostrud consequat elit minim consectetur velit nulla anim tempor ex mollit.\r\n", 
+    "skills": [
+      "Angular", 
+      "React", 
+      "css", 
+      "html"
+    ], 
+    "location": "Waterloo", 
+    "logo": "http://placehold.it/32x32", 
+    "_id": "597be3e41e444c64deee838d", 
+    "email": "janarios@trasola.com"
+  }, 
   {
-    city: "Caroleen",
-    Description:
-      "Sit adipisicing commodo esse aliqua tempor in occaecat eiusmod. Quis voluptate tempor dolor ipsum labore excepteur veniam ut anim sunt quis officia voluptate velit. Sunt sunt veniam mollit adipisicing sint amet adipisicing nisi. Quis pariatur reprehenderit amet in veniam qui cupidatat pariatur officia eiusmod in.\r\nConsectetur minim est reprehenderit veniam consequat in veniam ut fugiat. Velit commodo amet voluptate quis aliquip qui aliqua enim mollit et non ullamco. Fugiat qui consequat dolore sunt sit qui laboris fugiat minim exercitation.\r\nQui aliqua qui culpa officia ipsum pariatur dolore fugiat mollit sit sint aliqua quis. Excepteur elit est commodo occaecat in non do cupidatat sit. Incididunt culpa mollit qui in aliqua minim eu enim.\r\n",
-    title: "Backend Developer",
-    url: "https://voluptatereprehenderit.com",
-    company: "PROFLEX",
-    summary:
-      "Amet in nulla nostrud dolore magna ea pariatur amet ad irure. Dolor culpa eu velit esse cillum. Ipsum sunt sint in exercitation duis. Eu do id dolor nulla dolore duis officia officia enim reprehenderit elit nostrud officia sunt.\r\n",
-    logo: "http://placehold.it/32x32",
-    _id: "5970078586b9536cb522a8c7",
-    email: "paulmorgan@proflex.com"
-  },
+    "city": "Nanafalia", 
+    "description": "Ipsum magna commodo est et veniam qui nisi ea ipsum ullamco laborum nostrud voluptate. Irure aliqua ex officia ullamco non enim exercitation sint deserunt est. Commodo adipisicing nisi commodo dolor ut sunt. Ea mollit mollit labore Lorem nostrud exercitation incididunt anim est tempor ipsum. Velit proident consequat laborum quis cillum eiusmod veniam nulla id laborum cupidatat eiusmod eu. Ad fugiat labore minim qui do Lorem qui aute labore enim anim consequat labore est. Laborum consequat minim aliqua cillum veniam magna eiusmod ex ut anim.\r\nEu tempor est laborum ad occaecat labore non tempor do est ea eiusmod adipisicing. Non irure proident enim quis voluptate enim pariatur consectetur irure sint incididunt minim aliqua. Officia ad voluptate pariatur id cillum dolor duis nostrud amet nostrud aute occaecat velit consequat. Nulla veniam aute ut esse mollit pariatur nostrud cupidatat adipisicing. Elit sit mollit adipisicing sint eu aliqua id aliqua laborum officia tempor fugiat cupidatat.\r\nOfficia ex quis nostrud eu in adipisicing minim nostrud sit labore. Occaecat laborum Lorem ea incididunt in enim aliqua incididunt est sunt irure. Nisi eiusmod sunt esse officia nulla ad voluptate amet aliquip. Est culpa quis veniam ad mollit in ullamco et sint voluptate fugiat ex. Laborum minim excepteur anim aliqua. Veniam aute excepteur consequat adipisicing qui aute aliquip excepteur quis sit pariatur sunt. Sunt sunt exercitation dolor elit adipisicing consequat esse.\r\n", 
+    "title": "Fullstack Developer", 
+    "url": "https://culpaelit.io", 
+    "company": "COASH", 
+    "summary": "Sunt cupidatat occaecat amet quis. Esse quis id excepteur laboris. Amet veniam dolor excepteur ad Lorem minim sit ullamco voluptate laborum incididunt. Consectetur aliquip exercitation commodo occaecat tempor quis elit. Officia non labore ex excepteur ipsum Lorem commodo id minim est eu cillum esse. Culpa ut dolor deserunt incididunt.\r\n", 
+    "skills": [
+      "css", 
+      "Node", 
+      "js", 
+      "Node"
+    ], 
+    "location": "Gratton", 
+    "logo": "http://placehold.it/32x32", 
+    "_id": "597be3e406b7deed7fda5f82", 
+    "email": "janarios@coash.com"
+  }, 
   {
-    city: "Cazadero",
-    Description:
-      "Nostrud incididunt minim esse nulla esse et irure Lorem aliqua. Enim mollit et ex cupidatat qui labore ullamco fugiat tempor ad. Labore non minim dolor fugiat velit minim irure non esse ad.\r\nCommodo proident nisi laboris est culpa occaecat excepteur occaecat incididunt irure tempor sint est. Consectetur sit reprehenderit non commodo in officia est culpa amet nulla eiusmod dolor magna. Amet laboris sint consectetur culpa minim. Ut qui sit dolor aute id. Laborum sint nulla aute ex ullamco nostrud aliquip magna anim.\r\nAd incididunt pariatur occaecat reprehenderit quis nulla deserunt voluptate ipsum. Incididunt occaecat ipsum eiusmod irure occaecat eiusmod esse aute est dolor non cillum nostrud. Amet commodo ipsum amet amet laborum sunt culpa excepteur minim ullamco deserunt ea quis velit.\r\n",
-    title: "Game Developer",
-    url: "https://nostrudquis.io",
-    company: "NIXELT",
-    summary:
-      "Id cillum ullamco anim cupidatat veniam cupidatat incididunt fugiat id sit elit. Labore officia ullamco eiusmod excepteur id. Ex eiusmod officia id labore magna qui tempor adipisicing. Tempor non fugiat ullamco sint labore dolor mollit magna mollit magna. Nulla eu esse quis ipsum consequat exercitation velit esse consectetur anim adipisicing.\r\n",
-    logo: "http://placehold.it/32x32",
-    _id: "59700785b5eb8c3a2cc9605f",
-    email: "paulmorgan@nixelt.com"
-  },
+    "city": "Bethpage", 
+    "description": "Consectetur consequat laborum anim sint dolore aliquip anim. Esse Lorem magna quis tempor ea fugiat officia irure nostrud duis. Sit minim officia ipsum sint sint dolor aute in veniam. Cupidatat eiusmod cillum laboris do laborum et ad. Velit ut minim irure Lorem Lorem ullamco qui aute nisi do ipsum laborum officia culpa.\r\nEx commodo nostrud ex amet cillum nisi incididunt ut adipisicing ullamco pariatur proident excepteur. Veniam proident sunt adipisicing dolor et adipisicing nulla cupidatat. Aute labore exercitation deserunt anim tempor consectetur reprehenderit in ea consectetur ex tempor ipsum reprehenderit. Non minim pariatur do laborum enim dolore ipsum dolor non cupidatat sunt magna ex id. Adipisicing nostrud dolore quis excepteur sit sit.\r\nDo excepteur mollit sit duis dolore amet non incididunt dolor. Mollit ullamco cupidatat ex aute exercitation Lorem non pariatur reprehenderit magna. Anim deserunt ullamco exercitation do reprehenderit occaecat nisi.\r\n", 
+    "title": "Android Developer", 
+    "url": "https://nonexcepteur.com", 
+    "company": "IMANT", 
+    "summary": "Ad eiusmod pariatur mollit id quis adipisicing aute sunt amet consequat ea tempor do. Fugiat amet eiusmod id voluptate non voluptate consequat mollit minim Lorem do velit consectetur. Eu minim enim ad qui Lorem cupidatat incididunt aute reprehenderit nulla. Est mollit id adipisicing exercitation magna velit enim laboris. Tempor exercitation labore eu commodo cupidatat tempor anim ipsum qui id ea.\r\n", 
+    "skills": [
+      "js", 
+      "html", 
+      "css", 
+      "React"
+    ], 
+    "location": "Layhill", 
+    "logo": "http://placehold.it/32x32", 
+    "_id": "597be3e4467b3463ded9a0c7", 
+    "email": "janarios@imant.com"
+  }, 
   {
-    city: "Advance",
-    Description:
-      "Laboris aliquip occaecat amet quis ullamco sunt labore dolore eu duis minim. Elit ipsum Lorem est duis laboris reprehenderit proident non cillum non fugiat. Aute irure aute ullamco qui dolore.\r\nEst reprehenderit dolore mollit ad irure fugiat nostrud. Qui ex irure minim laborum ex est nisi veniam ex nisi. Occaecat laboris amet duis proident sint commodo eiusmod. Culpa excepteur dolore sint minim ullamco amet adipisicing est.\r\nExcepteur pariatur aliquip anim fugiat officia veniam dolor do. Aliquip nostrud fugiat irure ut laborum laborum culpa pariatur ex tempor magna mollit laboris eiusmod. Reprehenderit Lorem elit velit nulla ea excepteur anim Lorem eiusmod. Adipisicing eiusmod deserunt ipsum elit veniam consequat dolor non mollit aliqua. Laborum elit laboris aute duis et excepteur quis cillum magna deserunt. Dolor sit id ea ex proident Lorem velit ad. Proident id aute nostrud tempor do id in in aute mollit magna.\r\n",
-    title: "Game Developer",
-    url: "https://officianon.com",
-    company: "BEZAL",
-    summary:
-      "Cupidatat reprehenderit veniam occaecat duis nisi adipisicing commodo nostrud deserunt fugiat incididunt aute irure nulla. Minim est est magna in consectetur eiusmod duis id eu qui. Officia excepteur ex magna incididunt anim cillum amet consequat occaecat nulla commodo. Est occaecat dolor duis consequat pariatur in cillum. Mollit proident exercitation nostrud commodo veniam esse aliqua magna amet.\r\n",
-    logo: "http://placehold.it/32x32",
-    _id: "5970078563aefb30fd693578",
-    email: "paulmorgan@bezal.com"
-  },
+    "city": "Clarksburg", 
+    "description": "Irure veniam nulla anim ut cupidatat reprehenderit tempor deserunt irure occaecat. Amet commodo sunt excepteur do et veniam cillum amet veniam fugiat. Qui dolore enim proident consequat dolore tempor consectetur amet. Sit est fugiat voluptate pariatur non ipsum.\r\nPariatur officia ut ea quis pariatur. Sunt dolore mollit sunt consequat ad enim deserunt laborum amet aute. Amet enim do laboris eiusmod et ullamco mollit esse sit. Sunt ipsum dolor Lorem ea eiusmod ipsum dolor aute amet do.\r\nOfficia deserunt nulla occaecat duis laboris duis consequat laborum adipisicing. In voluptate magna labore Lorem aliquip excepteur mollit. Id qui minim exercitation reprehenderit elit Lorem proident ipsum dolore quis veniam pariatur pariatur.\r\n", 
+    "title": "Game Developer", 
+    "url": "https://nostrudminim.io", 
+    "company": "KAGGLE", 
+    "summary": "Ut do commodo reprehenderit eu enim fugiat magna officia. Velit adipisicing adipisicing officia ipsum culpa commodo elit sint labore deserunt ullamco id. Irure cupidatat dolor officia minim ipsum eu dolore amet qui proident. Nisi sit cupidatat id mollit aute pariatur aliquip ipsum pariatur. Dolore ullamco sint fugiat quis ullamco ea magna eiusmod laboris consequat qui sit ullamco officia. Esse tempor sunt aute dolor cupidatat.\r\n", 
+    "skills": [
+      "Node", 
+      "js", 
+      "css", 
+      "Angular"
+    ], 
+    "location": "remote", 
+    "logo": "http://placehold.it/32x32", 
+    "_id": "597be3e4134232e6a61c841b", 
+    "email": "janarios@kaggle.com"
+  }, 
   {
-    city: "Southmont",
-    Description:
-      "Ullamco do adipisicing aliquip nisi eu ea cupidatat et fugiat. Occaecat ad amet sint fugiat sit dolore irure est. In nulla nisi id incididunt pariatur.\r\nDolor elit culpa ea duis enim ullamco labore consectetur occaecat dolor excepteur occaecat cillum sint. Deserunt occaecat mollit aliquip magna cupidatat minim fugiat sint irure elit sint quis voluptate. Elit minim dolor aute laborum consequat culpa exercitation ad duis aliqua. Anim nisi veniam exercitation eu dolor culpa officia mollit ea pariatur dolore ipsum. Incididunt adipisicing aute magna duis duis adipisicing ipsum excepteur cillum non dolore. Proident sunt cupidatat Lorem tempor officia consequat aliqua.\r\nEst nisi minim adipisicing in exercitation laboris magna ex in ea enim nostrud ut exercitation. Cillum ipsum sunt velit laborum ullamco labore nulla. Ullamco aliquip mollit velit excepteur est commodo nostrud et do adipisicing enim aliquip nisi enim. Lorem aliqua ullamco laborum anim.\r\n",
-    title: "Android Developer",
-    url: "https://utlaboris.io",
-    company: "CEMENTION",
-    summary:
-      "Proident cillum ullamco velit ad commodo do eiusmod irure voluptate. Amet velit ex nisi irure amet laboris eiusmod ea nisi aliqua in eiusmod consectetur. Proident laborum excepteur labore exercitation officia occaecat id labore. Aute elit non ea incididunt. Anim deserunt pariatur sit duis ex consequat et. Officia sunt nostrud et nisi nostrud sit. In commodo minim ullamco amet ipsum laboris nostrud laborum nisi magna pariatur.\r\n",
-    logo: "http://placehold.it/32x32",
-    _id: "597007859ce8ad90a2eb4fd5",
-    email: "paulmorgan@cemention.com"
+    "city": "Blairstown", 
+    "description": "Fugiat culpa voluptate nostrud ex consequat eiusmod pariatur ullamco. Nulla quis incididunt sunt ea quis excepteur. Aliqua eu occaecat nostrud amet consequat laboris Lorem aute. Exercitation nulla in ipsum officia aliquip ad nisi. Incididunt ullamco reprehenderit reprehenderit nisi labore. Enim do amet mollit deserunt ea deserunt officia amet. Deserunt culpa laborum ullamco consequat culpa et aliquip eu labore duis.\r\nAliquip quis deserunt tempor fugiat ipsum pariatur labore culpa est. Veniam velit qui cillum quis amet ex ea nisi. Magna aliquip sunt officia fugiat elit sint elit est fugiat ullamco voluptate do veniam. Lorem aute excepteur proident et anim elit ad ad elit. Ipsum voluptate reprehenderit quis et nisi aliqua irure exercitation veniam irure ea. Duis in est cupidatat laborum velit anim ex quis incididunt nostrud. Velit aliquip id cillum elit ea labore incididunt amet deserunt.\r\nCillum laboris eiusmod duis duis. Magna et enim reprehenderit quis. Non eu aute voluptate deserunt in velit nisi nisi minim enim laborum sint nisi veniam.\r\n", 
+    "title": "Fullstack Developer", 
+    "url": "https://fugiatirure.io", 
+    "company": "NORALEX", 
+    "summary": "Laboris dolor laboris duis voluptate ex anim dolore do. Quis anim eu qui ex occaecat nostrud laboris ea. Nostrud excepteur irure officia Lorem cillum cupidatat nisi commodo fugiat Lorem cillum reprehenderit.\r\n", 
+    "skills": [
+      "js", 
+      "Angular", 
+      "Angular", 
+      "React"
+    ], 
+    "location": "remote", 
+    "logo": "http://placehold.it/32x32", 
+    "_id": "597be3e47aa9f417c93097a4", 
+    "email": "janarios@noralex.com"
   }
 ];
 
