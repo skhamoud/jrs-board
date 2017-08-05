@@ -1,0 +1,296 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Developers Api fetchAllDevs should return Array of Developers 1`] = `
+Array [
+  Object {
+    "_id": "596ffd935dbf167113a1c79b",
+    "city": "Loma",
+    "company": "NIXELT",
+    "education": Array [
+      Object {
+        "degree": "MA in Id Est",
+        "university": "Consequat Voluptate University, Yonah",
+        "year": 2016,
+      },
+      Object {
+        "degree": "BS in Laboris Sunt",
+        "university": "Minim Lorem University, Singer",
+        "year": 2017,
+      },
+    ],
+    "email": "evansdixon@nixelt.com",
+    "experience": Array [
+      Object {
+        "company": "FIBRODYNE",
+        "position": "Exercitation Ex",
+        "time": "8 months",
+      },
+      Object {
+        "company": "ONTAGENE",
+        "position": "Consectetur Sint",
+        "time": "9 months",
+      },
+    ],
+    "name": "Evans Dixon",
+    "picture": "http://placehold.it/32x32",
+    "skills": Array [
+      "js",
+      "React",
+      "React",
+      "React",
+    ],
+    "summary": "Ut eiusmod cupidatat aute adipisicing laborum reprehenderit duis esse consequat irure reprehenderit laboris. Mollit ea ullamco excepteur deserunt ut laborum dolore minim amet commodo qui. Excepteur adipisicing Lorem sit exercitation ea. Minim cupidatat cupidatat irure elit non voluptate. Pariatur tempor do id commodo. Sint ad enim duis culpa laboris quis sint culpa sit enim ea laborum tempor. Amet ea eu sit et occaecat commodo anim in minim duis.
+",
+    "title": "Backend Developer",
+  },
+  Object {
+    "_id": "596ffd934579f68a47e39121",
+    "city": "Yettem",
+    "company": "POLARIUM",
+    "education": Array [
+      Object {
+        "degree": "MS in Sit Tempor",
+        "university": "Ipsum Cupidatat University, Brookfield",
+        "year": 2016,
+      },
+      Object {
+        "degree": "MA in Elit Esse",
+        "university": "Aute Velit University, Gerton",
+        "year": 2016,
+      },
+    ],
+    "email": "brandilott@polarium.com",
+    "experience": Array [
+      Object {
+        "company": "ESCENTA",
+        "position": "Deserunt Eu",
+        "time": "15 months",
+      },
+      Object {
+        "company": "EPLODE",
+        "position": "Culpa Lorem",
+        "time": "10 months",
+      },
+      Object {
+        "company": "ECRAZE",
+        "position": "Sint Non",
+        "time": "16 months",
+      },
+    ],
+    "name": "Brandi Lott",
+    "picture": "http://placehold.it/32x32",
+    "skills": Array [
+      "Angular",
+      "Node",
+      "js",
+      "Node",
+    ],
+    "summary": "Sint voluptate dolor incididunt culpa elit amet culpa mollit eiusmod aliquip sunt eiusmod. Laboris quis quis et consequat. Excepteur dolor dolor minim sit deserunt culpa laboris sint cillum est ullamco.
+",
+    "title": "Game Developer",
+  },
+  Object {
+    "_id": "596ffd93704f1f6f7addc92f",
+    "city": "Knowlton",
+    "company": "QUILM",
+    "education": Array [
+      Object {
+        "degree": "BS in Laborum Ipsum",
+        "university": "Dolore Amet University, Skyland",
+        "year": 2014,
+      },
+    ],
+    "email": "landrybuchanan@quilm.com",
+    "experience": Array [
+      Object {
+        "company": "MEGALL",
+        "position": "Qui Labore",
+        "time": "13 months",
+      },
+      Object {
+        "company": "FURNAFIX",
+        "position": "Occaecat Eu",
+        "time": "17 months",
+      },
+    ],
+    "name": "Landry Buchanan",
+    "picture": "http://placehold.it/32x32",
+    "skills": Array [
+      "css",
+      "css",
+      "React",
+      "html",
+    ],
+    "summary": "Amet sint labore eu qui cupidatat deserunt sint eu pariatur anim Lorem. Incididunt qui ipsum qui sint deserunt incididunt sit in deserunt eu Lorem est officia. Laboris reprehenderit Lorem ex anim dolore ea exercitation deserunt et.
+",
+    "title": "Game Developer",
+  },
+  Object {
+    "_id": "596ffd93c003f5846e918e2f",
+    "city": "Warren",
+    "company": "VELITY",
+    "education": Array [
+      Object {
+        "degree": "MA in Adipisicing Cupidatat",
+        "university": "Laborum Nisi University, Delshire",
+        "year": 2015,
+      },
+      Object {
+        "degree": "BS in Quis Consectetur",
+        "university": "Proident Sit University, Bayview",
+        "year": 2015,
+      },
+      Object {
+        "degree": "BS in Consequat Et",
+        "university": "Qui Aliquip University, Gibsonia",
+        "year": 2015,
+      },
+    ],
+    "email": "nolantownsend@velity.com",
+    "experience": Array [
+      Object {
+        "company": "EZENTIA",
+        "position": "Ex Excepteur",
+        "time": "6 months",
+      },
+      Object {
+        "company": "FURNIGEER",
+        "position": "Incididunt Commodo",
+        "time": "10 months",
+      },
+      Object {
+        "company": "XYQAG",
+        "position": "Tempor Dolore",
+        "time": "12 months",
+      },
+    ],
+    "name": "Nolan Townsend",
+    "picture": "http://placehold.it/32x32",
+    "skills": Array [
+      "css",
+      "css",
+      "html",
+      "js",
+    ],
+    "summary": "Incididunt occaecat tempor aliquip voluptate culpa culpa aliquip proident. Nisi ullamco aliquip Lorem pariatur ad dolor elit eu exercitation. Nostrud sunt sint ullamco sint anim proident occaecat. Qui culpa duis ullamco irure commodo sunt aliquip culpa dolore laborum magna sit laboris anim.
+",
+    "title": "Backend Developer",
+  },
+  Object {
+    "_id": "596ffd935cacedd7051f0e7a",
+    "city": "Fingerville",
+    "company": "ORBEAN",
+    "education": Array [
+      Object {
+        "degree": "MA in Ipsum Exercitation",
+        "university": "Officia Qui University, Dotsero",
+        "year": 2014,
+      },
+    ],
+    "email": "estellahogan@orbean.com",
+    "experience": Array [
+      Object {
+        "company": "SENTIA",
+        "position": "Minim Id",
+        "time": "17 months",
+      },
+    ],
+    "name": "Estella Hogan",
+    "picture": "http://placehold.it/32x32",
+    "skills": Array [
+      "html",
+      "css",
+      "Node",
+      "React",
+    ],
+    "summary": "Commodo in quis consequat et eu dolore laborum incididunt. Sint deserunt sit est laboris. Culpa ipsum in elit ullamco anim incididunt consequat Lorem Lorem id consectetur sint ad. Nulla consequat ad qui ut laborum incididunt aliqua dolor enim adipisicing magna dolore in ad. Amet minim ullamco ea consequat do sint irure eiusmod tempor. Sunt in amet cillum mollit deserunt culpa labore voluptate laborum incididunt.
+",
+    "title": "Android Developer",
+  },
+  Object {
+    "_id": "596ffd93aadbf052d9eae575",
+    "city": "Bedias",
+    "company": "LUMBREX",
+    "education": Array [
+      Object {
+        "degree": "BA in Velit Quis",
+        "university": "Ea Nisi University, Wintersburg",
+        "year": 2015,
+      },
+    ],
+    "email": "paulmorgan@lumbrex.com",
+    "experience": Array [
+      Object {
+        "company": "SARASONIC",
+        "position": "Esse Labore",
+        "time": "13 months",
+      },
+      Object {
+        "company": "INJOY",
+        "position": "Eu Incididunt",
+        "time": "13 months",
+      },
+    ],
+    "name": "Paul Morgan",
+    "picture": "http://placehold.it/32x32",
+    "skills": Array [
+      "Node",
+      "Node",
+      "Node",
+      "js",
+    ],
+    "summary": "Sint officia ullamco est in id nisi fugiat minim culpa. Aliquip tempor ea mollit deserunt nostrud esse anim Lorem esse proident. Cillum velit sint amet quis culpa elit officia minim laboris ad officia. Commodo deserunt nulla sint amet laboris non ullamco quis esse eu labore minim nostrud laborum. Laborum amet sunt minim ullamco dolore.
+",
+    "title": "Frontend Developer",
+  },
+]
+`;
+
+exports[`Developers Api fetchDev should fetch a single Developer object 1`] = `
+Object {
+  "_id": "596ffd934579f68a47e39121",
+  "city": "Yettem",
+  "company": "POLARIUM",
+  "education": Array [
+    Object {
+      "degree": "MS in Sit Tempor",
+      "university": "Ipsum Cupidatat University, Brookfield",
+      "year": 2016,
+    },
+    Object {
+      "degree": "MA in Elit Esse",
+      "university": "Aute Velit University, Gerton",
+      "year": 2016,
+    },
+  ],
+  "email": "brandilott@polarium.com",
+  "experience": Array [
+    Object {
+      "company": "ESCENTA",
+      "position": "Deserunt Eu",
+      "time": "15 months",
+    },
+    Object {
+      "company": "EPLODE",
+      "position": "Culpa Lorem",
+      "time": "10 months",
+    },
+    Object {
+      "company": "ECRAZE",
+      "position": "Sint Non",
+      "time": "16 months",
+    },
+  ],
+  "name": "Brandi Lott",
+  "picture": "http://placehold.it/32x32",
+  "skills": Array [
+    "Angular",
+    "Node",
+    "js",
+    "Node",
+  ],
+  "summary": "Sint voluptate dolor incididunt culpa elit amet culpa mollit eiusmod aliquip sunt eiusmod. Laboris quis quis et consequat. Excepteur dolor dolor minim sit deserunt culpa laboris sint cillum est ullamco.
+",
+  "title": "Game Developer",
+}
+`;

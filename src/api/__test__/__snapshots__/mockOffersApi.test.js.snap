@@ -1,0 +1,163 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Offers Api fetchAllOffers should fetch array of Data 1`] = `
+Array [
+  Object {
+    "_id": "597be3e4daef7edd950efdad",
+    "city": "Grenelefe",
+    "company": "CEMENTION",
+    "description": "Cupidatat tempor nulla anim eiusmod proident. Duis elit minim eiusmod do sit ea non proident cupidatat culpa mollit commodo. Incididunt ad pariatur incididunt sunt ut consequat labore irure cupidatat reprehenderit excepteur reprehenderit. Occaecat sint exercitation officia dolor commodo dolor reprehenderit fugiat Lorem. Adipisicing dolor elit velit Lorem sunt culpa enim. Consequat culpa incididunt laborum elit qui aliqua proident aute. Cillum ullamco sint excepteur in est do Lorem veniam nostrud elit ad.
+Proident Lorem laborum ea reprehenderit ad Lorem ex excepteur culpa enim nostrud id elit voluptate. Cupidatat voluptate dolor in mollit ipsum consectetur. Eu aliquip exercitation commodo exercitation eu qui consectetur do amet excepteur in aute. Labore exercitation adipisicing consequat commodo nisi aliqua enim adipisicing consequat enim et occaecat fugiat qui. Nulla minim tempor et sunt nisi dolore ullamco minim aliqua ipsum ut.
+Sunt exercitation commodo esse enim ipsum exercitation sint veniam dolor quis dolor veniam. Exercitation pariatur exercitation minim excepteur enim exercitation Lorem ipsum ad est sint in in nulla. Dolore culpa ullamco labore do. Labore ipsum aliquip consequat aliqua est id esse tempor officia aliquip.
+",
+    "email": "janarios@cemention.com",
+    "location": "remote",
+    "logo": "http://placehold.it/32x32",
+    "skills": Array [
+      "Node",
+      "React",
+      "Node",
+      "html",
+    ],
+    "summary": "Amet proident in voluptate nulla deserunt eu exercitation nulla. Nulla ad cillum tempor nisi tempor duis minim laborum irure laborum sunt cupidatat Lorem. Qui est velit in veniam fugiat irure anim esse dolor. Minim in enim cupidatat culpa anim do nulla laboris commodo ipsum pariatur ut magna commodo. Officia culpa labore incididunt est mollit reprehenderit irure velit anim.
+",
+    "title": "Backend Developer",
+    "url": "https://occaecatexercitation.com",
+  },
+  Object {
+    "_id": "597be3e41e444c64deee838d",
+    "city": "Tibbie",
+    "company": "TRASOLA",
+    "description": "Laboris non officia adipisicing sint mollit ullamco consequat laboris cillum reprehenderit enim. Labore labore Lorem proident reprehenderit quis nisi fugiat irure eiusmod culpa et. Commodo ut ex quis nisi.
+Aliquip voluptate anim sit tempor dolor anim proident. Tempor dolor mollit excepteur cillum ullamco voluptate voluptate est qui anim tempor elit et. Eu sint magna est in sit irure elit nostrud. Laborum ut adipisicing aliqua aute tempor cillum.
+Reprehenderit irure ad excepteur do cupidatat consectetur laborum occaecat aute ipsum. Consectetur qui Lorem enim et consequat pariatur. Non tempor do fugiat adipisicing Lorem exercitation aliqua pariatur veniam. Laboris incididunt aute anim officia laborum enim occaecat nulla laboris.
+",
+    "email": "janarios@trasola.com",
+    "location": "Waterloo",
+    "logo": "http://placehold.it/32x32",
+    "skills": Array [
+      "Angular",
+      "React",
+      "css",
+      "html",
+    ],
+    "summary": "In sunt ea do tempor magna consectetur est ea. Aliqua deserunt pariatur excepteur irure est dolor. Deserunt nostrud consequat elit minim consectetur velit nulla anim tempor ex mollit.
+",
+    "title": "Fullstack Developer",
+    "url": "https://nullalaborum.com",
+  },
+  Object {
+    "_id": "597be3e406b7deed7fda5f82",
+    "city": "Nanafalia",
+    "company": "COASH",
+    "description": "Ipsum magna commodo est et veniam qui nisi ea ipsum ullamco laborum nostrud voluptate. Irure aliqua ex officia ullamco non enim exercitation sint deserunt est. Commodo adipisicing nisi commodo dolor ut sunt. Ea mollit mollit labore Lorem nostrud exercitation incididunt anim est tempor ipsum. Velit proident consequat laborum quis cillum eiusmod veniam nulla id laborum cupidatat eiusmod eu. Ad fugiat labore minim qui do Lorem qui aute labore enim anim consequat labore est. Laborum consequat minim aliqua cillum veniam magna eiusmod ex ut anim.
+Eu tempor est laborum ad occaecat labore non tempor do est ea eiusmod adipisicing. Non irure proident enim quis voluptate enim pariatur consectetur irure sint incididunt minim aliqua. Officia ad voluptate pariatur id cillum dolor duis nostrud amet nostrud aute occaecat velit consequat. Nulla veniam aute ut esse mollit pariatur nostrud cupidatat adipisicing. Elit sit mollit adipisicing sint eu aliqua id aliqua laborum officia tempor fugiat cupidatat.
+Officia ex quis nostrud eu in adipisicing minim nostrud sit labore. Occaecat laborum Lorem ea incididunt in enim aliqua incididunt est sunt irure. Nisi eiusmod sunt esse officia nulla ad voluptate amet aliquip. Est culpa quis veniam ad mollit in ullamco et sint voluptate fugiat ex. Laborum minim excepteur anim aliqua. Veniam aute excepteur consequat adipisicing qui aute aliquip excepteur quis sit pariatur sunt. Sunt sunt exercitation dolor elit adipisicing consequat esse.
+",
+    "email": "janarios@coash.com",
+    "location": "Gratton",
+    "logo": "http://placehold.it/32x32",
+    "skills": Array [
+      "css",
+      "Node",
+      "js",
+      "Node",
+    ],
+    "summary": "Sunt cupidatat occaecat amet quis. Esse quis id excepteur laboris. Amet veniam dolor excepteur ad Lorem minim sit ullamco voluptate laborum incididunt. Consectetur aliquip exercitation commodo occaecat tempor quis elit. Officia non labore ex excepteur ipsum Lorem commodo id minim est eu cillum esse. Culpa ut dolor deserunt incididunt.
+",
+    "title": "Fullstack Developer",
+    "url": "https://culpaelit.io",
+  },
+  Object {
+    "_id": "597be3e4467b3463ded9a0c7",
+    "city": "Bethpage",
+    "company": "IMANT",
+    "description": "Consectetur consequat laborum anim sint dolore aliquip anim. Esse Lorem magna quis tempor ea fugiat officia irure nostrud duis. Sit minim officia ipsum sint sint dolor aute in veniam. Cupidatat eiusmod cillum laboris do laborum et ad. Velit ut minim irure Lorem Lorem ullamco qui aute nisi do ipsum laborum officia culpa.
+Ex commodo nostrud ex amet cillum nisi incididunt ut adipisicing ullamco pariatur proident excepteur. Veniam proident sunt adipisicing dolor et adipisicing nulla cupidatat. Aute labore exercitation deserunt anim tempor consectetur reprehenderit in ea consectetur ex tempor ipsum reprehenderit. Non minim pariatur do laborum enim dolore ipsum dolor non cupidatat sunt magna ex id. Adipisicing nostrud dolore quis excepteur sit sit.
+Do excepteur mollit sit duis dolore amet non incididunt dolor. Mollit ullamco cupidatat ex aute exercitation Lorem non pariatur reprehenderit magna. Anim deserunt ullamco exercitation do reprehenderit occaecat nisi.
+",
+    "email": "janarios@imant.com",
+    "location": "Layhill",
+    "logo": "http://placehold.it/32x32",
+    "skills": Array [
+      "js",
+      "html",
+      "css",
+      "React",
+    ],
+    "summary": "Ad eiusmod pariatur mollit id quis adipisicing aute sunt amet consequat ea tempor do. Fugiat amet eiusmod id voluptate non voluptate consequat mollit minim Lorem do velit consectetur. Eu minim enim ad qui Lorem cupidatat incididunt aute reprehenderit nulla. Est mollit id adipisicing exercitation magna velit enim laboris. Tempor exercitation labore eu commodo cupidatat tempor anim ipsum qui id ea.
+",
+    "title": "Android Developer",
+    "url": "https://nonexcepteur.com",
+  },
+  Object {
+    "_id": "597be3e4134232e6a61c841b",
+    "city": "Clarksburg",
+    "company": "KAGGLE",
+    "description": "Irure veniam nulla anim ut cupidatat reprehenderit tempor deserunt irure occaecat. Amet commodo sunt excepteur do et veniam cillum amet veniam fugiat. Qui dolore enim proident consequat dolore tempor consectetur amet. Sit est fugiat voluptate pariatur non ipsum.
+Pariatur officia ut ea quis pariatur. Sunt dolore mollit sunt consequat ad enim deserunt laborum amet aute. Amet enim do laboris eiusmod et ullamco mollit esse sit. Sunt ipsum dolor Lorem ea eiusmod ipsum dolor aute amet do.
+Officia deserunt nulla occaecat duis laboris duis consequat laborum adipisicing. In voluptate magna labore Lorem aliquip excepteur mollit. Id qui minim exercitation reprehenderit elit Lorem proident ipsum dolore quis veniam pariatur pariatur.
+",
+    "email": "janarios@kaggle.com",
+    "location": "remote",
+    "logo": "http://placehold.it/32x32",
+    "skills": Array [
+      "Node",
+      "js",
+      "css",
+      "Angular",
+    ],
+    "summary": "Ut do commodo reprehenderit eu enim fugiat magna officia. Velit adipisicing adipisicing officia ipsum culpa commodo elit sint labore deserunt ullamco id. Irure cupidatat dolor officia minim ipsum eu dolore amet qui proident. Nisi sit cupidatat id mollit aute pariatur aliquip ipsum pariatur. Dolore ullamco sint fugiat quis ullamco ea magna eiusmod laboris consequat qui sit ullamco officia. Esse tempor sunt aute dolor cupidatat.
+",
+    "title": "Game Developer",
+    "url": "https://nostrudminim.io",
+  },
+  Object {
+    "_id": "597be3e47aa9f417c93097a4",
+    "city": "Blairstown",
+    "company": "NORALEX",
+    "description": "Fugiat culpa voluptate nostrud ex consequat eiusmod pariatur ullamco. Nulla quis incididunt sunt ea quis excepteur. Aliqua eu occaecat nostrud amet consequat laboris Lorem aute. Exercitation nulla in ipsum officia aliquip ad nisi. Incididunt ullamco reprehenderit reprehenderit nisi labore. Enim do amet mollit deserunt ea deserunt officia amet. Deserunt culpa laborum ullamco consequat culpa et aliquip eu labore duis.
+Aliquip quis deserunt tempor fugiat ipsum pariatur labore culpa est. Veniam velit qui cillum quis amet ex ea nisi. Magna aliquip sunt officia fugiat elit sint elit est fugiat ullamco voluptate do veniam. Lorem aute excepteur proident et anim elit ad ad elit. Ipsum voluptate reprehenderit quis et nisi aliqua irure exercitation veniam irure ea. Duis in est cupidatat laborum velit anim ex quis incididunt nostrud. Velit aliquip id cillum elit ea labore incididunt amet deserunt.
+Cillum laboris eiusmod duis duis. Magna et enim reprehenderit quis. Non eu aute voluptate deserunt in velit nisi nisi minim enim laborum sint nisi veniam.
+",
+    "email": "janarios@noralex.com",
+    "location": "remote",
+    "logo": "http://placehold.it/32x32",
+    "skills": Array [
+      "js",
+      "Angular",
+      "Angular",
+      "React",
+    ],
+    "summary": "Laboris dolor laboris duis voluptate ex anim dolore do. Quis anim eu qui ex occaecat nostrud laboris ea. Nostrud excepteur irure officia Lorem cillum cupidatat nisi commodo fugiat Lorem cillum reprehenderit.
+",
+    "title": "Fullstack Developer",
+    "url": "https://fugiatirure.io",
+  },
+]
+`;
+
+exports[`Offers Api fetchOffer should fetch a single offer object 1`] = `
+Object {
+  "_id": "597be3e41e444c64deee838d",
+  "city": "Tibbie",
+  "company": "TRASOLA",
+  "description": "Laboris non officia adipisicing sint mollit ullamco consequat laboris cillum reprehenderit enim. Labore labore Lorem proident reprehenderit quis nisi fugiat irure eiusmod culpa et. Commodo ut ex quis nisi.
+Aliquip voluptate anim sit tempor dolor anim proident. Tempor dolor mollit excepteur cillum ullamco voluptate voluptate est qui anim tempor elit et. Eu sint magna est in sit irure elit nostrud. Laborum ut adipisicing aliqua aute tempor cillum.
+Reprehenderit irure ad excepteur do cupidatat consectetur laborum occaecat aute ipsum. Consectetur qui Lorem enim et consequat pariatur. Non tempor do fugiat adipisicing Lorem exercitation aliqua pariatur veniam. Laboris incididunt aute anim officia laborum enim occaecat nulla laboris.
+",
+  "email": "janarios@trasola.com",
+  "location": "Waterloo",
+  "logo": "http://placehold.it/32x32",
+  "skills": Array [
+    "Angular",
+    "React",
+    "css",
+    "html",
+  ],
+  "summary": "In sunt ea do tempor magna consectetur est ea. Aliqua deserunt pariatur excepteur irure est dolor. Deserunt nostrud consequat elit minim consectetur velit nulla anim tempor ex mollit.
+",
+  "title": "Fullstack Developer",
+  "url": "https://nullalaborum.com",
+}
+`;

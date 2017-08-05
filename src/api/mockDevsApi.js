@@ -1,7 +1,7 @@
 import { devsData, generateId } from "./dummyData";
 const delay = 400; // delay for dummyData
 
-let devs = devsData;
+let devs = Object.assign([], devsData);
 
 export default {
   /**
@@ -15,26 +15,27 @@ export default {
     });
   },
 
-  /** Fetches Particular Offer wit id */
+  /** Fetches Particular Developer with id */
   fetchDev(id) {
     return new Promise((resolve, reject) => {
       setTimeout(function() {
-        const devToFetch = devs.find(o => o._id === id);
-        !~devToFetch ? resolve(devToFetch) : reject("dev Not Found");
+        const devToFetch = devs.find(dev => dev._id === id);
+        devToFetch ? resolve(devToFetch) : reject(`Developer with id ${id} not found`);
       }, delay);
     });
   },
+
   /**
-   * Saves or Updates a new Offer
+   * Saves or Updates a new Developer
    */
-  addDev(dev) {
+  saveDev(dev) {
     return new Promise((resolve, reject) => {
       setTimeout(function() {
         // check if already present , then just update
         if (dev._id) {
-          const existingdevIdx = devs.findIndex(o => o._id === dev._id);
-          if (~existingdevIdx) reject("No Dev with that _id");
-          devs.splice(existingdevIdx, 1, dev);
+          const existingDevIdx = devs.findIndex(d => d._id === dev._id);
+          if (!~existingDevIdx) reject(`Developer with id ${dev._id} not found`);
+          devs.splice(existingDevIdx, 1, dev);
         } else {
           // if new generate an _id property
           generateId(dev);
@@ -45,11 +46,13 @@ export default {
     });
   },
 
-  /** Deletes offer with id*/
+  /** Deletes Developer with id*/
   deleteDev(id) {
-    return new Promise(resolve => {
+    return new Promise((resolve, reject) => {
       setTimeout(function() {
-        devs = devs.filter(o => o._id !== id);
+        const devToDelete = devs.findIndex(dev => dev._id === id);
+        if (!~devToDelete) reject(`Developer with id ${id} not found`);
+        devs.splice(devToDelete, 1);
         resolve(devs);
       }, delay);
     });

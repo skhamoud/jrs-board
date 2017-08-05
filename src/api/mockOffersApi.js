@@ -1,7 +1,7 @@
 import { offersData, generateId } from "./dummyData";
 const delay = 400; // delay for dummyData
 
-let offers = offersData;
+let offers = Object.assign([], offersData);
 export default {
   /**
  * Fetches all the developers 
@@ -19,7 +19,7 @@ export default {
     return new Promise((resolve, reject) => {
       setTimeout(function() {
         const offerToFetch = offers.find(o => o._id === id);
-        !~offerToFetch ? resolve(offerToFetch) : reject("Offer Not Found");
+        offerToFetch ? resolve(offerToFetch) : reject(`Offer with id ${id} not found`);
       }, delay);
     });
   },
@@ -27,13 +27,13 @@ export default {
   /**
    * Saves or Updates a new Offer
    */
-  addOffer(offer) {
+  saveOffer(offer) {
     return new Promise((resolve, reject) => {
       setTimeout(function() {
         // check if already present , then just update
         if (offer._id) {
           const existingOfferIdx = offers.findIndex(o => o._id === offer._id);
-          if (~existingOfferIdx) reject("No Offer with that _id");
+          if (!~existingOfferIdx) reject(`Offer with id ${offer._id} not found`);
           offers.splice(existingOfferIdx, 1, offer);
         } else {
           // if new generate an _id property
@@ -47,9 +47,11 @@ export default {
 
   /** Deletes offer with id*/
   deleteOffer(id) {
-    return new Promise(resolve => {
+    return new Promise((resolve, reject) => {
       setTimeout(function() {
-        offers = offers.filter(o => o._id !== id);
+        const offerToDelete = offers.findIndex(offer => offer._id === id);
+        if (!~offerToDelete) reject(`Offer with id ${id} not found`);
+        offers.splice(offerToDelete, 1);
         resolve(offers);
       }, delay);
     });
