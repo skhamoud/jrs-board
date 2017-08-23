@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "randomstring": "^1.1.5",
+    "bulma": "^0.5.0",
     "prop-types": "^15.5.10",
+    "randomstring": "^1.1.5",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
@@ -14,12 +15,17 @@
     "redux-thunk": "^2.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
+    "watch-sass": "yarn run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "startjs": "react-scripts start",
+    "start": "npm-run-all -p startjs watch-sass",
+    "build": "yarn run build-css && react-scripts build && wait",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "node-sass-chokidar": "^0.0.3",
+    "npm-run-all": "^4.0.2",
     "redux-immutable-state-invariant": "^2.0.0"
   }
 }
