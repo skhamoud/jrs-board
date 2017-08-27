@@ -1,0 +1,30 @@
+.navbar{
+    background-color: $primaryColor;
+    color: $textColor;
+    align-items: center;
+    padding: $gapHor;
+
+    .navbar-brand{
+        align-items: center;
+
+        h1{
+            font-size: 1.8em;
+            font-weight: 600;
+            margin: $gapHor;
+        }
+
+        .navbar-burger span{
+            background-color: $textColor;
+        }
+
+        .navbar-burger:hover{
+            background-color: $darkPrimaryColor;
+        }
+    }
+
+    a{
+        color: $textColor;
+        text-decoration: none;
+        margin: $gapHor;
+    }
+}

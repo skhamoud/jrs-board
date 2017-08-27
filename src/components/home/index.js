@@ -1,6 +1,11 @@
 // The HomePage Container Component
 import React from "react";
 
-const HomePage = () => <h2 className="title">HomePage</h2>;
+import Navbar from "../common/NavComponent.js";
+
+const HomePage = () => 
+    <div>
+        <Navbar />
+    </div>;
 
 export default HomePage;

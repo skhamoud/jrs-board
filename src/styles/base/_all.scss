@@ -1,5 +1,6 @@
 // 1. Import the initial variables
-@import "bulma/sass/utilities/initial-variables"; // 2. Set your own initial variables
+@import "bulma/sass/utilities/initial-variables";
+// 2. Set your own initial variables
 // Update blue
 $blue: #72d0eb;
 // Add pink and its invert
@@ -7,6 +8,20 @@ $pink: #ffb3b3;
 $pink-invert: #fff;
 // Add a serif family
 $family-serif: "Merriweather", "Georgia", serif;
+
+//colors palette https://www.materialpalette.com/blue-grey/light-green
+$darkPrimaryColor: #455A64;
+$primaryColor: #607D8B;
+$lightPrimaryColor: #CFD8DC;
+$textColor: #FFFFFF;
+$accentColor: #8BC34A;
+$primaryTextColor: #212121;
+$secondaryTextColor: #757575;
+$dividerColor: #BDBDBD;
+
+//spacing
+$gapHor: 0 15px;
+
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: $pink;
@@ -17,3 +32,4 @@ $danger: $orange;
 $family-primary: $family-serif;
 // 4. Import the rest of Bulma
 @import "bulma/bulma";
+
