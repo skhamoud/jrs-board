@@ -30,13 +30,13 @@ class Navbar extends Component {
 
                     <div className={this.state.isActive ? "navbar-menu is-active" : "navbar-menu"}>
                         <div className="navbar-start">
-                            <Link to="#">All&nbsp;jobs</Link>
-                            <Link to="#">Juniors</Link>
-                            <Link to="#">About</Link>
+                            <Link className="navbar-item" to="#">All&nbsp;jobs</Link>
+                            <Link className="navbar-item" to="#">Juniors</Link>
+                            <Link className="navbar-item" to="#">About</Link>
                         </div>
                         <div className="navbar-end">
-                            <Link to="#">Sign&nbsp;up</Link>
-                            <Link to="#">Sign&nbsp;in</Link>    
+                            <Link className="navbar-item" to="#">Sign&nbsp;up</Link>
+                            <Link className="navbar-item" to="#">Sign&nbsp;in</Link>    
                         </div>    
                     </div>
                 </nav>
