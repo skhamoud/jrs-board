@@ -21,7 +21,7 @@ class Navbar extends Component {
                     <div className="navbar-brand">
                         <h1>&lt; Jrs /&gt;</h1>
 
-                        <div className="navbar-burger"  onClick={this.toggleMenu}>
+                        <div className={this.state.isActive ? "navbar-burger is-active" : "navbar-burger"} onClick={this.toggleMenu}>
                             <span></span>
                             <span></span>
                             <span></span>
